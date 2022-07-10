@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7ba83cf0-403f-400d-8501-07fc4755b9e5": {
+      "ProjectGuid": "7ba83cf0-403f-400d-8501-07fc4755b9e5",
+      "DisplayName": "SchoolManger",
+      "ColorIndex": 0
+    },
+    "ed112c57-2a25-4ca7-a395-1dcfa21176d5": {
+      "ProjectGuid": "ed112c57-2a25-4ca7-a395-1dcfa21176d5",
+      "DisplayName": "Model",
+      "ColorIndex": 1
+    },
+    "f83eeba3-bbb8-48ea-b881-e6d723a83ac9": {
+      "ProjectGuid": "f83eeba3-bbb8-48ea-b881-e6d723a83ac9",
+      "DisplayName": "ISchoolDAL",
+      "ColorIndex": 2
+    },
+    "7b634065-78bf-4d69-9f87-bc3df472bfa6": {
+      "ProjectGuid": "7b634065-78bf-4d69-9f87-bc3df472bfa6",
+      "DisplayName": "SchoolDAl",
+      "ColorIndex": 3
+    },
+    "7eec26ef-7c23-442d-a6bc-882e2e03c826": {
+      "ProjectGuid": "7eec26ef-7c23-442d-a6bc-882e2e03c826",
+      "DisplayName": "ISchoolBLL",
+      "ColorIndex": 4
+    },
+    "ac483632-012d-47ea-a40b-8f2e781b9f9f": {
+      "ProjectGuid": "ac483632-012d-47ea-a40b-8f2e781b9f9f",
+      "DisplayName": "SchoolBLL",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}

@@ -1,0 +1,17 @@
+D:\代码\C#项目\SchoolManger\SchoolManger\SchoolDAl\bin\Debug\SchoolDAl.dll.config
+D:\代码\C#项目\SchoolManger\SchoolManger\SchoolDAl\bin\Debug\SchoolDAl.dll
+D:\代码\C#项目\SchoolManger\SchoolManger\SchoolDAl\bin\Debug\SchoolDAl.pdb
+D:\代码\C#项目\SchoolManger\SchoolManger\SchoolDAl\bin\Debug\EntityFramework.dll
+D:\代码\C#项目\SchoolManger\SchoolManger\SchoolDAl\bin\Debug\EntityFramework.SqlServer.dll
+D:\代码\C#项目\SchoolManger\SchoolManger\SchoolDAl\bin\Debug\Model.dll
+D:\代码\C#项目\SchoolManger\SchoolManger\SchoolDAl\bin\Debug\SchoolIDAL.dll
+D:\代码\C#项目\SchoolManger\SchoolManger\SchoolDAl\bin\Debug\Model.pdb
+D:\代码\C#项目\SchoolManger\SchoolManger\SchoolDAl\bin\Debug\Model.dll.config
+D:\代码\C#项目\SchoolManger\SchoolManger\SchoolDAl\bin\Debug\SchoolIDAL.pdb
+D:\代码\C#项目\SchoolManger\SchoolManger\SchoolDAl\bin\Debug\EntityFramework.xml
+D:\代码\C#项目\SchoolManger\SchoolManger\SchoolDAl\bin\Debug\EntityFramework.SqlServer.xml
+D:\代码\C#项目\SchoolManger\SchoolManger\SchoolDAl\obj\Debug\SchoolDAl.csproj.AssemblyReference.cache
+D:\代码\C#项目\SchoolManger\SchoolManger\SchoolDAl\obj\Debug\SchoolDAl.csproj.CoreCompileInputs.cache
+D:\代码\C#项目\SchoolManger\SchoolManger\SchoolDAl\obj\Debug\SchoolDAl.csproj.CopyComplete
+D:\代码\C#项目\SchoolManger\SchoolManger\SchoolDAl\obj\Debug\SchoolDAl.dll
+D:\代码\C#项目\SchoolManger\SchoolManger\SchoolDAl\obj\Debug\SchoolDAl.pdb

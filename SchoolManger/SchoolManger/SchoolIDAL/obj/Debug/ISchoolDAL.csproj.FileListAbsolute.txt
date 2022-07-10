@@ -1,0 +1,13 @@
+D:\代码\C#项目\SchoolManger\SchoolManger\SchoolIDAL\bin\Debug\SchoolIDAL.dll
+D:\代码\C#项目\SchoolManger\SchoolManger\SchoolIDAL\bin\Debug\SchoolIDAL.pdb
+D:\代码\C#项目\SchoolManger\SchoolManger\SchoolIDAL\bin\Debug\Model.dll
+D:\代码\C#项目\SchoolManger\SchoolManger\SchoolIDAL\bin\Debug\EntityFramework.dll
+D:\代码\C#项目\SchoolManger\SchoolManger\SchoolIDAL\bin\Debug\Model.pdb
+D:\代码\C#项目\SchoolManger\SchoolManger\SchoolIDAL\bin\Debug\Model.dll.config
+D:\代码\C#项目\SchoolManger\SchoolManger\SchoolIDAL\bin\Debug\EntityFramework.xml
+D:\代码\C#项目\SchoolManger\SchoolManger\SchoolIDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\代码\C#项目\SchoolManger\SchoolManger\SchoolIDAL\obj\Debug\ISchoolDAL.csproj.AssemblyReference.cache
+D:\代码\C#项目\SchoolManger\SchoolManger\SchoolIDAL\obj\Debug\ISchoolDAL.csproj.CoreCompileInputs.cache
+D:\代码\C#项目\SchoolManger\SchoolManger\SchoolIDAL\obj\Debug\ISchoolDAL.csproj.CopyComplete
+D:\代码\C#项目\SchoolManger\SchoolManger\SchoolIDAL\obj\Debug\SchoolIDAL.dll
+D:\代码\C#项目\SchoolManger\SchoolManger\SchoolIDAL\obj\Debug\SchoolIDAL.pdb

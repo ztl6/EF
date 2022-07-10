@@ -1,0 +1,267 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7BA83CF0-403F-400D-8501-07FC4755B9E5}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SchoolManger</RootNamespace>
+    <AssemblyName>SchoolManger</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44372</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.7\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.7\lib\net45\System.Web.Webpages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Deployment">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.7\lib\net45\System.Web.Webpages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.7\lib\net45\System.Web.Webpages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.7\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\assets\css\bootstrap.css" />
+    <Content Include="Content\assets\css\bootstrap.min.css" />
+    <Content Include="Content\assets\css\demo.css" />
+    <Content Include="Content\assets\css\main.css" />
+    <Content Include="Content\assets\img\apple-icon.png" />
+    <Content Include="Content\assets\img\favicon.png" />
+    <Content Include="Content\assets\img\login-bg.jpg" />
+    <Content Include="Content\assets\img\logo-dark.png" />
+    <Content Include="Content\assets\img\profile-bg.png" />
+    <Content Include="Content\assets\img\user-medium.png" />
+    <Content Include="Content\assets\img\user.png" />
+    <Content Include="Content\assets\img\user1.png" />
+    <Content Include="Content\assets\img\user2.png" />
+    <Content Include="Content\assets\img\user3.png" />
+    <Content Include="Content\assets\img\user4.png" />
+    <Content Include="Content\assets\img\user5.png" />
+    <Content Include="Content\assets\scripts\jquery.validate.js" />
+    <Content Include="Content\assets\scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Content\assets\scripts\klorofil-common.js" />
+    <Content Include="Content\assets\vendor\bootstrap\css\bootstrap-theme.css" />
+    <Content Include="Content\assets\vendor\bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="Content\assets\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="Content\assets\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Content\assets\vendor\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\assets\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="Content\assets\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Content\assets\vendor\bootstrap\js\npm.js" />
+    <Content Include="Content\assets\vendor\chartist\css\chartist-custom.css" />
+    <Content Include="Content\assets\vendor\chartist\css\chartist.css" />
+    <Content Include="Content\assets\vendor\chartist\css\chartist.min.css" />
+    <Content Include="Content\assets\vendor\chartist\js\chartist.js" />
+    <Content Include="Content\assets\vendor\chartist\js\chartist.min.js" />
+    <Content Include="Content\assets\vendor\font-awesome\css\font-awesome.css" />
+    <Content Include="Content\assets\vendor\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Content\assets\vendor\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\assets\vendor\jquery-slimscroll\jquery.slimscroll.js" />
+    <Content Include="Content\assets\vendor\jquery-slimscroll\jquery.slimscroll.min.js" />
+    <Content Include="Content\assets\vendor\jquery.easy-pie-chart\angular.easypiechart.js" />
+    <Content Include="Content\assets\vendor\jquery.easy-pie-chart\angular.easypiechart.min.js" />
+    <Content Include="Content\assets\vendor\jquery.easy-pie-chart\easypiechart.js" />
+    <Content Include="Content\assets\vendor\jquery.easy-pie-chart\easypiechart.min.js" />
+    <Content Include="Content\assets\vendor\jquery.easy-pie-chart\jquery.easypiechart.js" />
+    <Content Include="Content\assets\vendor\jquery.easy-pie-chart\jquery.easypiechart.min.js" />
+    <Content Include="Content\assets\vendor\jquery\jquery.js" />
+    <Content Include="Content\assets\vendor\jquery\jquery.min.js" />
+    <Content Include="Content\assets\vendor\linearicons\fonts\Linearicons-Free.svg" />
+    <Content Include="Content\assets\vendor\linearicons\style.css" />
+    <Content Include="Content\assets\vendor\toastr\toastr.css" />
+    <Content Include="Content\assets\vendor\toastr\toastr.js" />
+    <Content Include="Content\assets\vendor\toastr\toastr.min.css" />
+    <Content Include="Content\assets\vendor\toastr\toastr.min.js" />
+    <Content Include="Global.asax" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Manager\Controllers\SchoolController.cs" />
+    <Compile Include="Areas\Manager\ManagerAreaRegistration.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\School\SchoolAddModel.cs" />
+    <Compile Include="Models\School\SchoolEditModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\web.config" />
+    <Content Include="Content\assets\css\demo.css.map" />
+    <Content Include="Content\assets\css\main.css.map" />
+    <Content Include="Content\assets\vendor\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\assets\vendor\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\assets\vendor\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\assets\vendor\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Content\assets\vendor\chartist\css\chartist-custom.css.map" />
+    <Content Include="Content\assets\vendor\chartist\map\chartist.css.map" />
+    <Content Include="Content\assets\vendor\chartist\map\chartist.min.js.map" />
+    <Content Include="Content\assets\vendor\chartist\scss\chartist.scss" />
+    <Content Include="Content\assets\vendor\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\assets\vendor\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\assets\vendor\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\assets\vendor\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\assets\vendor\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="Content\assets\vendor\jquery\jquery.min.map" />
+    <Content Include="Content\assets\vendor\linearicons\fonts\Linearicons-Free.eot" />
+    <Content Include="Content\assets\vendor\linearicons\fonts\Linearicons-Free.ttf" />
+    <Content Include="Content\assets\vendor\linearicons\fonts\Linearicons-Free.woff" />
+    <Content Include="Content\assets\vendor\linearicons\fonts\Linearicons-Free.woff2" />
+    <Content Include="Areas\Manager\Views\web.config" />
+    <Content Include="Areas\Manager\Views\Shared\_LayoutPage1.cshtml" />
+    <Content Include="Areas\Manager\Views\School\Index.cshtml" />
+    <Content Include="Areas\Manager\Views\School\Add.cshtml" />
+    <Content Include="Areas\Manager\Views\School\Edit.cshtml" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Areas\Manager\Data\" />
+    <Folder Include="Areas\Manager\Views\SchoolManager\" />
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ISchoolBLL\ISchoolBLL.csproj">
+      <Project>{7eec26ef-7c23-442d-a6bc-882e2e03c826}</Project>
+      <Name>ISchoolBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{ed112c57-2a25-4ca7-a395-1dcfa21176d5}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SchoolBLL\SchoolBLL.csproj">
+      <Project>{ac483632-012d-47ea-a40b-8f2e781b9f9f}</Project>
+      <Name>SchoolBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SchoolDAl\SchoolDAl.csproj">
+      <Project>{7b634065-78bf-4d69-9f87-bc3df472bfa6}</Project>
+      <Name>SchoolDAl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SchoolIDAL\ISchoolDAL.csproj">
+      <Project>{f83eeba3-bbb8-48ea-b881-e6d723a83ac9}</Project>
+      <Name>ISchoolDAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>59170</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44372/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
